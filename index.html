@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajan Equipments & Logistics</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow-sm py-3" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <div class="bg-red text-white rounded p-1 me-2 fw-bold" style="font-size: 0.8em;">RE</div>
+                <div class="d-flex flex-column lh-1">
+                    <span class="text-dark fs-6">Rajan Equipments</span>
+                    <span class="text-red fs-6">& Logistics</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Equipments
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!-- Nested Dropdown -->
+                            <li>
+                                <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">
+                                    Cranes <i class="fas fa-chevron-right small d-none d-lg-block"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li><a class="dropdown-item" href="pick-and-carry.html">Pick and Carry</a></li>
+                                    <li><a class="dropdown-item" href="mobile-crane.html">Mobile Crane</a></li>
+                                    <li><a class="dropdown-item" href="crawler-crane.html">Crawler Crane</a></li>
+                                    <li><a class="dropdown-item" href="tower-crane.html">Tower Crane</a></li>
+                                    <li><a class="dropdown-item" href="rough-terrain.html">Rough Terrain</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="aerial-work-platforms.html">Aerial Work Platforms</a>
+                            </li>
+                            <li><a class="dropdown-item" href="trailer.html">Trailer</a></li>
+                            <li><a class="dropdown-item" href="forklift.html">Forklift</a></li>
+                            <li><a class="dropdown-item" href="telehandler.html">Telehandler</a></li>
+                            <li><a class="dropdown-item" href="compaction-equipments.html">Compaction Equipments</a>
+                            </li>
+                            <li><a class="dropdown-item" href="earth-moving-equipments.html">Earth Moving Equipments</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Other
+                            Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ambulance-services.html">Ambulance Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="clients.html">Our Clients</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="contact.html" class="btn btn-red px-4 py-2 rounded-1">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section d-flex align-items-center text-center bg-light text-dark position-relative">
+        <div class="container z-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="display-2 fw-bold mb-0 text-dark">Professional Crane Services &</h1>
+                    <h1 class="display-2 fw-bold text-red mb-4">Heavy Lifting Solutions</h1>
+                    <p class="lead text-muted opacity-75 mb-5 mx-auto" style="max-width: 800px;">
+                        Experts in logistics, crane rentals, professional heavy lifting and complete project management
+                        solutions. Ensuring safe, efficient and reliable execution for every project.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="index.html#contact" class="btn btn-red btn-lg rounded-1 px-5">Get Started <i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="services.html" class="btn btn-yellow btn-lg rounded-1 px-5 text-dark">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-6 section-spacer bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="position-relative">
+                        <img src="https://placehold.co/600x600/f8f9fa/333?text=About+Image"
+                            class="img-fluid rounded-4 w-100" alt="About Us">
+                        <div
+                            class="bg-red text-white p-4 rounded-3 position-absolute bottom-0 end-0 mb-n4 me-n4 shadow d-none d-md-block">
+                            <h3 class="fw-bold mb-0">20+</h3>
+                            <small>Years Experience</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
+                    <h6 class="text-red fw-bold text-uppercase mb-2">About Our Company</h6>
+                    <h2 class="fw-bold mb-4 display-6 text-dark">We Provide The Best Logistics Solutions</h2>
+                    <p class="text-muted mb-4">At Rajan Cranes, we take pride in being one of the most trusted and
+                        reliable crane service providers in the industry. Since 1985, our journey began with a single
+                        crane and a vision to deliver top-notch lifting solutions.
+                        Over the decades, we’ve grown into a powerhouse offering a modern fleet of well-maintained
+                        cranes capable of handling projects of any scale.</p>
+
+                    <ul class="list-unstyled mb-4">
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-red me-3 fa-lg"></i>
+                            <span class="text-dark">Certified & Expert Operators</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-red me-3 fa-lg"></i>
+                            <span class="text-dark">24/7 On-Site Support</span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-check-circle text-red me-3 fa-lg"></i>
+                            <span class="text-dark">Modern & Maintained Fleet</span>
+                        </li>
+                    </ul>
+                    <a href="about.html" class="btn btn-outline-danger rounded-1 px-4">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-6 section-spacer bg-light text-dark">
+        <div class="container">
+            <div class="text-center mb-5 mw-800 mx-auto" data-aos="fade-up">
+                <h2 class="fw-bold mb-2">Our <span class="text-red">Services</span></h2>
+                <p class="text-muted">Comprehensive solutions for all your heavy lifting and logistics needs</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card service-card h-100 border-0 shadow-sm bg-white text-dark">
+                        <div class="card-img-wrapper position-relative overflow-hidden p-2">
+                            <div
+                                class="bg-red position-absolute top-0 start-0 w-100 h-100 opacity-0 service-overlay transition-all">
+                            </div>
+                            <img src="https://placehold.co/400x250/f8f9fa/333?text=Heavy+Lifting"
+                                class="card-img-top rounded-1" alt="Heavy Lifting">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-3">Heavy Lifting and Rigging</h4>
+                            <p class="text-muted mb-4 small">Professional heavy lifting solutions with state-of-the-art
+                                equipment.</p>
+                            <button type="button" class="btn btn-sm btn-outline-danger rounded-1 w-100"
+                                onclick="openServiceModal('Safe and precise lifting of heavy equipment, machinery, and structures using various crane types.')">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="card-footer border-0 p-0 bg-white">
+                            <div class="h-1 bg-red w-75 mx-auto rounded-top" style="height: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card service-card h-100 border-0 shadow-sm bg-white text-dark">
+                        <div class="card-img-wrapper position-relative overflow-hidden p-2">
+                            <img src="https://placehold.co/400x250/f8f9fa/333?text=Construction"
+                                class="card-img-top rounded-1" alt="Construction Site">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-3">Construction Site Lifting</h4>
+                            <p class="text-muted mb-4 small">Specialized lifting services for construction projects of
+                                all sizes.</p>
+                            <button type="button" class="btn btn-sm btn-outline-danger rounded-1 w-100"
+                                onclick="openServiceModal('Construction Site Lifting', 'We provide specialized lifting services tailored for construction sites.')">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="card-footer border-0 p-0 bg-white">
+                            <div class="h-1 bg-red w-75 mx-auto rounded-top" style="height: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card service-card h-100 border-0 shadow-sm bg-white text-dark">
+                        <div class="card-img-wrapper position-relative overflow-hidden p-2">
+                            <img src="https://placehold.co/400x250/f8f9fa/333?text=Installation"
+                                class="card-img-top rounded-1" alt="Installation">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-3">Machinery Installation</h4>
+                            <p class="text-muted mb-4 small">Expert machinery installation and relocation services.</p>
+                            <button type="button" class="btn btn-sm btn-outline-danger rounded-1 w-100"
+                                onclick="openServiceModal('Machinery Installation', 'Our expert team handles delicate machinery installation and plant relocation.')">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="card-footer border-0 p-0 bg-white">
+                            <div class="h-1 bg-red w-75 mx-auto rounded-top" style="height: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card service-card h-100 border-0 shadow-sm bg-white text-dark">
+                        <div class="card-img-wrapper position-relative overflow-hidden p-2">
+                            <img src="https://placehold.co/400x250/f8f9fa/333?text=Infrastructure"
+                                class="card-img-top rounded-1" alt="Infrastructure">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-3">Infrastructure Support</h4>
+                            <p class="text-muted mb-4 small">Comprehensive infrastructure project support and logistics.
+                            </p>
+                            <button type="button" class="btn btn-sm btn-outline-danger rounded-1 w-100"
+                                onclick="openServiceModal('Infrastructure Support', 'Supporting public works and large-scale infrastructure projects.')">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="card-footer border-0 p-0 bg-white">
+                            <div class="h-1 bg-red w-75 mx-auto rounded-top" style="height: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card service-card h-100 border-0 shadow-sm bg-white text-dark">
+                        <div class="card-img-wrapper position-relative overflow-hidden p-2">
+                            <img src="https://placehold.co/400x250/f8f9fa/333?text=Recovery"
+                                class="card-img-top rounded-1" alt="Recovery">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-3">Emergency & Recovery Lifting</h4>
+                            <p class="text-muted mb-4 small">24/7 emergency response and recovery lifting services.</p>
+                            <button type="button" class="btn btn-sm btn-outline-danger rounded-1 w-100"
+                                onclick="openServiceModal('Emergency & Recovery Lifting', 'Available 24/7 for emergency recovery operations.')">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="card-footer border-0 p-0 bg-white">
+                            <div class="h-1 bg-red w-75 mx-auto rounded-top" style="height: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card service-card h-100 border-0 shadow-sm bg-white text-dark">
+                        <div class="card-img-wrapper position-relative overflow-hidden p-2">
+                            <img src="https://placehold.co/400x250/f8f9fa/333?text=Rental"
+                                class="card-img-top rounded-1" alt="Rental">
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="fw-bold mb-3">Crane Rental Services</h4>
+                            <p class="text-muted mb-4 small">Wide range of cranes available for short and long-term
+                                rental.</p>
+                            <button type="button" class="btn btn-sm btn-outline-danger rounded-1 w-100"
+                                onclick="openServiceModal('Crane Rental Services', 'From mobile cranes to crawler cranes, our fleet is available for rent.')">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="card-footer border-0 p-0 bg-white">
+                            <div class="h-1 bg-red w-75 mx-auto rounded-top" style="height: 4px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MORE SERVICES BUTTON - Confirmed Logic -->
+            <div class="text-center mt-5" data-aos="fade-up">
+                <a href="services.html" class="btn btn-red px-5 py-2 rounded-1">More Services <i
+                        class="fas fa-arrow-right ms-2"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="py-5 bg-white border-top border-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-dark fw-bold">Our Esteemed <span class="text-red">Clients</span></h2>
+                <p class="text-muted small">Trusted by leading companies across various industries</p>
+            </div>
+            <div class="row justify-content-center align-items-center g-4 text-center">
+                <div class="col-4 col-md-2" data-aos="zoom-in">
+                    <img src="https://placehold.co/150x60/f8f9fa/333?text=Construction"
+                        class="img-fluid opacity-50 hover-opacity-100 transition-all border border-light p-1 rounded"
+                        alt="Client 1">
+                </div>
+                <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://placehold.co/150x60/f8f9fa/333?text=Infra+Ltd"
+                        class="img-fluid opacity-50 hover-opacity-100 transition-all border border-light p-1 rounded"
+                        alt="Client 2">
+                </div>
+                <div class="col-4 col-md-2" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://placehold.co/150x60/f8f9fa/333?text=BuildTech"
+                        class="img-fluid opacity-50 hover-opacity-100 transition-all border border-light p-1 rounded"
+                        alt="Client 3">
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="clients.html" class="btn btn-outline-danger btn-sm px-4">View All Clients <i
+                        class="fas fa-arrow-right ms-1"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-6 section-spacer bg-light text-dark border-top border-light">
+        <div class="container">
+            <h2 class="fw-bold mb-5 text-center">Get In <span class="text-red">Touch</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="row g-0 rounded-4 overflow-hidden shadow-lg border border-light">
+                        <!-- Left Info Column -->
+                        <div
+                            class="col-lg-5 bg-white p-5 d-flex flex-column justify-content-center border-end border-light">
+                            <h2 class="fw-bold mb-3 text-red">Let's build something great.</h2>
+                            <p class="text-muted mb-5">Have a question or need a quote? Call us directly or fill out the
+                                form, and our team will get back to you right away.</p>
+
+                            <div class="d-flex align-items-start mb-4">
+                                <div class="text-red me-3 mt-1"><i class="fas fa-phone-alt fa-lg"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Call Us</h6>
+                                    <p class="mb-0 text-muted">+1 234 567 8900</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-4">
+                                <div class="text-red me-3 mt-1"><i class="fas fa-envelope fa-lg"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Email Us</h6>
+                                    <p class="mb-0 text-muted">info@rajanequipments.com</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start">
+                                <div class="text-red me-3 mt-1"><i class="fas fa-map-marker-alt fa-lg"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-1">Visit Us</h6>
+                                    <p class="mb-0 text-muted">123 Industrial Area, City, Country</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Form Column -->
+                        <div class="col-lg-7 bg-white p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label text-muted small fw-bold">Full Name</label>
+                                        <input type="text"
+                                            class="form-control form-control-lg fs-6 rounded-1 border-light bg-light shadow-sm"
+                                            placeholder="Enter Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label text-muted small fw-bold">Email</label>
+                                        <input type="email"
+                                            class="form-control form-control-lg fs-6 rounded-1 border-light bg-light shadow-sm"
+                                            placeholder="Enter Email">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label text-muted small fw-bold">Phone</label>
+                                        <input type="tel"
+                                            class="form-control form-control-lg fs-6 rounded-1 border-light bg-light shadow-sm"
+                                            placeholder="Enter Phone Number">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label text-muted small fw-bold">Location</label>
+                                        <input type="text"
+                                            class="form-control form-control-lg fs-6 rounded-1 border-light bg-light shadow-sm"
+                                            placeholder="Enter Location">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label text-muted small fw-bold">Requirement Type</label>
+                                        <select
+                                            class="form-select form-select-lg fs-6 rounded-1 border-light bg-light shadow-sm">
+                                            <option selected>Select Type</option>
+                                            <option value="Rental">Rental</option>
+                                            <option value="Service">Service</option>
+                                            <option value="Logistics">Logistics</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label text-muted small fw-bold">Service / Equipment
+                                            Needed</label>
+                                        <select
+                                            class="form-select form-select-lg fs-6 rounded-1 border-light bg-light shadow-sm">
+                                            <option selected>Select Option</option>
+                                            <option value="Cranes">Cranes</option>
+                                            <option value="Forklift">Forklift</option>
+                                            <option value="Ambulance">Ambulance</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label text-muted small fw-bold">Your Message</label>
+                                        <textarea
+                                            class="form-control form-control-lg fs-6 rounded-1 border-light bg-light shadow-sm"
+                                            rows="4" placeholder="How can we help you?"></textarea>
+                                    </div>
+                                    <div class="col-12 mt-4 text-end">
+                                        <button type="submit"
+                                            class="btn btn-red btn-lg rounded-1 px-5 shadow fw-bold">Submit
+                                            Request</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer - Dark Theme Configured -->
+    <footer class="bg-black text-white py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-between">
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 d-flex align-items-center">
+                        <span class="bg-red text-white p-1 rounded me-2 fs-6">RE</span>
+                        <span>Rajan Equipments <br> <span class="text-red small">& Logistics</span></span>
+                    </h5>
+                    <p class="text-white-50 small">Your trusted partner for heavy lifting equipment and logistics
+                        solutions.</p>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <h6 class="fw-bold mb-3 text-white">Quick Links</h6>
+                    <ul class="list-unstyled text-white-50 small">
+                        <li class="mb-2"><a href="index.html"
+                                class="text-white-50 text-decoration-none hover-red">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white-50 text-decoration-none hover-red">About
+                                Us</a></li>
+                        <li class="mb-2"><a href="services.html"
+                                class="text-white-50 text-decoration-none hover-red">Services</a></li>
+                        <li class="mb-2"><a href="clients.html" class="text-white-50 text-decoration-none hover-red">Our
+                                Clients</a></li>
+                        <li class="mb-2"><a href="contact.html"
+                                class="text-white-50 text-decoration-none hover-red">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h6 class="fw-bold mb-3 text-white">Our Equipments</h6>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled text-white-50 small">
+                                <li class="mb-1"><a href="pick-and-carry.html"
+                                        class="text-white-50 text-decoration-none hover-red">Pick & Carry Crane</a></li>
+                                <li class="mb-1"><a href="mobile-crane.html"
+                                        class="text-white-50 text-decoration-none hover-red">Mobile Crane</a></li>
+                                <li class="mb-1"><a href="crawler-crane.html"
+                                        class="text-white-50 text-decoration-none hover-red">Crawler Crane</a></li>
+                                <li class="mb-1"><a href="tower-crane.html"
+                                        class="text-white-50 text-decoration-none hover-red">Tower Crane</a></li>
+                                <li class="mb-1"><a href="rough-terrain.html"
+                                        class="text-white-50 text-decoration-none hover-red">Rough Terrain Crane</a>
+                                </li>
+                                <li class="mb-1"><a href="aerial-work-platforms.html"
+                                        class="text-white-50 text-decoration-none hover-red">Aerial Work Platforms</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled text-white-50 small">
+                                <li class="mb-1"><a href="trailer.html"
+                                        class="text-white-50 text-decoration-none hover-red">Trailer</a></li>
+                                <li class="mb-1"><a href="forklift.html"
+                                        class="text-white-50 text-decoration-none hover-red">Forklift</a></li>
+                                <li class="mb-1"><a href="telehandler.html"
+                                        class="text-white-50 text-decoration-none hover-red">Telehandler</a></li>
+                                <li class="mb-1"><a href="compaction-equipments.html"
+                                        class="text-white-50 text-decoration-none hover-red">Compaction Equipments</a>
+                                </li>
+                                <li class="mb-1"><a href="earth-moving-equipments.html"
+                                        class="text-white-50 text-decoration-none hover-red">Earth Moving Equipments</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3 text-white">Contact Info</h6>
+                    <ul class="list-unstyled text-white-50 small mb-4">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-red"></i> 123 Industrial Area, City,
+                            Country</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2 text-red"></i> +1 234 567 8900</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2 text-red"></i> info@rajanequipments.com</li>
+                    </ul>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white-50 hover-red"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white-50 hover-red"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white-50 hover-red"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white-50 hover-red"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center text-white-50 small">
+                &copy; 2026 Rajan Equipments & Logistics. All rights reserved. | Developed by <a
+                    href="https://ogspace.in" class="text-white-50 text-decoration-none hover-red"
+                    target="_blank">ogspace</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Details Modal -->
+    <div class="modal fade" id="serviceModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="serviceModalLabel">Service Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="serviceModalBody" class="text-muted">Details...</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-red btn-sm rounded-1" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-dark btn-sm rounded-1">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
